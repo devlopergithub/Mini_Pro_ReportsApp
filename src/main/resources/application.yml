@@ -1,0 +1,29 @@
+spring:
+ application:
+    name: Reports_App
+    
+ datasource:
+    url: jdbc:oracle:thin:@localhost:1521/xe
+    username: system
+    password: system
+    driver-class-name: oracle.jdbc.OracleDriver
+ jpa:
+    #show-sql: true
+    hibernate:
+      ddl-auto: update
+ mail:
+    port: 587
+    username: krishnaapparaorapeti@gmail.com
+    password: kydj obno girr mkab
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+server:
+  port: 8085
+
+ 
+
+ 
